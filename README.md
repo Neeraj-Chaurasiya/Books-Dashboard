@@ -21,10 +21,10 @@ It is designed as a **freelancing-ready project**: run the script once → get a
 👉 Final Excel file: [`books_report.xlsx`](reports/books_report.xlsx)
 
 - Price Distribution  
-  ![Price Distribution](images/price_distribution.png)
+  ![Price Distribution](images/Price_distribution.png)
 
 - Top 10 Expensive Books  
-  ![Top 10 Expensive](images/top10_most_expensive.png)
+  ![Top 10 Expensive](images/Top10_most_expensive.png)
 
 - Rating vs Price  
   ![Rating vs Price](images/rating_vs_price.png)
