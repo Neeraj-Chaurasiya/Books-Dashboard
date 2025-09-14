@@ -1,20 +1,46 @@
-# Books Dashboard — Automated Report
+# 📚 Books Dashboard — Automated Report
 
-## TL;DR
-Automated dashboard & Excel report built from scraped books dataset (price distribution, top items, rating analysis).
+## ✨ Project Overview
+This project automates **book dataset analysis** and generates a professional **Excel report** with insights & charts.  
+It is designed as a **freelancing-ready project**: run the script once → get a clean, client-ready Excel file.
 
-## Tech Stack
-Python, Pandas, Seaborn, Matplotlib, ExcelWriter
+---
 
-## How to run
-1. `git clone https://github.com/<your-username>/books-dashboard.git`
-2. `pip install -r requirements.txt`
-3. `python generate_report.py`  # creates books_report.xlsx
+## ⚡ Key Features
+- Automated **Excel report** with multiple sheets
+- Visual Charts:
+  - 📈 Price Distribution
+  - 🏆 Top 10 Expensive Books
+  - ⭐ Rating vs Price Relationship
+- Clean **Python script** (plug & play)
+- Sample **Excel report** already included (`reports/books_report.xlsx`)
 
-## Files
-- `generate_report.py` — script to create Excel report
-- `books_report.xlsx` — exported report
-- `images/` — example charts
+---
 
-## License & Contact
-MIT · your-email@example.com
+## 📊 Sample Report Preview
+👉 Final Excel file: [`books_report.xlsx`](reports/books_report.xlsx)
+
+- Price Distribution  
+  ![Price Distribution](images/price_distribution.png)
+
+- Top 10 Expensive Books  
+  ![Top 10 Expensive](images/top10_most_expensive.png)
+
+- Rating vs Price  
+  ![Rating vs Price](images/rating_vs_price.png)
+
+---
+
+## 🛠️ Tech Stack
+- **Python 3.x**
+- **Pandas** → data cleaning
+- **Matplotlib & Seaborn** → visualizations
+- **OpenPyXL** → Excel export
+
+---
+
+## 🚀 How to Run
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/<your-username>/books-dashboard.git
+   cd books-dashboard
