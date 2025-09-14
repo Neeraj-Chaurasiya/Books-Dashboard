@@ -1,0 +1,20 @@
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+Jupyter
+
+.ipynb_checkpoints
+
+Virtual Environments
+
+.env
+.venv
+env/
+venv/
+
+Reports & temp files
+
+*.xlsx
+*.csv
