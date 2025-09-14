@@ -1,20 +1,22 @@
-pycache/
+# Python cache
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-Jupyter
-
+# Jupyter
 .ipynb_checkpoints
 
-Virtual Environments
-
+# Virtual Environments
 .env
 .venv
 env/
 venv/
 
-Reports & temp files
-
-*.xlsx
+# Ignore all CSV & XLSX by default
 *.csv
+*.xlsx
+
+# But keep important ones in data/ and reports/
+!data/*.csv
+!reports/*.xlsx
